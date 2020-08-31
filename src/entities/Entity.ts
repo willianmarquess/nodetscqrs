@@ -1,6 +1,6 @@
 import { uuid } from 'uuidv4'
 
-export abstract class Entity{
+export class Entity{
     public id : string;
 
     constructor(){
