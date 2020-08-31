@@ -1,4 +1,4 @@
-import { ICommandController } from "../../../../core/ICommandController";
+import { ICommandController } from "../../ICommandController";
 import { Request, Response } from "express";
 import { InserirClienteCommandHandler }  from "./InserirClienteCommandHandler";
 import { InserirClienteCommand } from "./InserirClienteCommand";

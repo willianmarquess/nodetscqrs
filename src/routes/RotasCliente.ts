@@ -17,8 +17,8 @@ rotasCliente.get('/clientes', (request, response) => {
     return clienteQueriesController.ObterTodos(request, response);
 });
 
-rotasCliente.get('/clientes', (request, response) => {
-    return clienteQueriesController.ObterTodos(request, response);
+rotasCliente.get('/clientes/:id', (request, response) => {
+    return clienteQueriesController.ObterProId(request, response);
 });
 
 export {rotasCliente};

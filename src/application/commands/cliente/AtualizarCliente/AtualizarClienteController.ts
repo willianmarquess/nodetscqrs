@@ -1,4 +1,4 @@
-import { ICommandController } from "../../../../core/ICommandController";
+import { ICommandController } from "../../ICommandController";
 import { AtualizarClienteCommandHandler } from "./AtualizarClienteCommandHandler";
 import { AtualizarClienteCommand } from "./AtualizarClienteCommand";
 import { Request, Response } from "express";
