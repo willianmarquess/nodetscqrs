@@ -5,19 +5,19 @@ import { clienteQueriesController } from "../application/queries/cliente";
 
 const rotasCliente = Router();
 
-rotasCliente.post('/clientes', (request, response) => {
+rotasCliente.post('/cliente', (request, response) => {
     return inserirClienteController.Executar(request, response);
 });
 
-rotasCliente.put('/clientes', (request, response) => {
+rotasCliente.put('/cliente', (request, response) => {
     return atualizarClienteController.Executar(request, response);
 });
 
-rotasCliente.get('/clientes', (request, response) => {
+rotasCliente.get('/cliente', (request, response) => {
     return clienteQueriesController.ObterTodos(request, response);
 });
 
-rotasCliente.get('/clientes/:id', (request, response) => {
+rotasCliente.get('/cliente/:id', (request, response) => {
     return clienteQueriesController.ObterProId(request, response);
 });
 
