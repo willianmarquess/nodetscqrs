@@ -31,6 +31,7 @@ O CQRS significa Separação das Operações de Comando e de Consulta, um padrã
 referência: https://docs.microsoft.com/pt-br/azure/architecture/patterns/cqrs
 
 <img src="https://miro.medium.com/max/1400/1*9PIFrsO4_ZGes2uTXCVTgQ.png" >
+referência: https://henriquesd.medium.com/the-command-and-query-responsibility-segregation-cqrs-pattern-16cb7704c809
 
 
 
